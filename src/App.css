@@ -471,6 +471,12 @@ div,section,ul,li,a,button,img,article,p,h1,h2,h3,h4,h5,h6,footer{
     flex: 2 0px;
     gap: 96px
   }
+  .signup aside{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+  }
 };
 
 
@@ -513,18 +519,6 @@ div,section,ul,li,a,button,img,article,p,h1,h2,h3,h4,h5,h6,footer{
   .heroSection article{
     width: 43%;
   };
-  .signup aside{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 24px;
-  }
-  .signup aside{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    flex-direction: row;
-  }
  }
 
 @media (min-width: 992px) { 
@@ -541,6 +535,10 @@ div,section,ul,li,a,button,img,article,p,h1,h2,h3,h4,h5,h6,footer{
     padding: 96px 100px 124px 100px;
   };
   article .subheader2{
+    font-size: 48px;
+    line-height: 72px;
+  }
+  .heroSection .subheader2{
     font-size: 48px;
     line-height: 72px;
   }
